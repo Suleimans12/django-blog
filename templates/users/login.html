@@ -7,7 +7,12 @@
         {% csrf_token %}
         {{ form|crispy}}
         <div class="d-grid">
-            <button class="btn btn-success btn-lg" type="submit">Log In</button>
+            <button class="btn btn-success btn-lg" type="submit">
+                <span>Log In</span>
+                <span>
+                    <i class="far fa-sign-in"></i>
+                </span>
+            </button>
         </div>
     </form>
     <p>
